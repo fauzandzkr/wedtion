@@ -275,7 +275,7 @@ body{
         transform: translate(50%, 50%);
     }
     .ayat-teks{
-        background-color: rgb(226, 26, 26);
+/*         background-color: rgb(226, 26, 26); */
         height: 60vh;
         line-height: 2;
         width: 80%;
