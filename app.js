@@ -71,15 +71,17 @@ hiddeniL1.forEach((el) => observer.observe(el));
 // end image
 
 // start introduce
-const hiddenmI = document.querySelectorAll('.main-introduce');
+const hiddenmI = document.querySelectorAll('.introduce');
 hiddenmI.forEach((el) => observer.observe(el));
 // end introduce
 
 // start invitation
+const hidden_i     = document.querySelectorAll('.invitation')
 const hidden_iS    = document.querySelectorAll('.invitation-salam');
 const hidden_iSBg  = document.querySelectorAll('.invitation-section-bg');
 const hidden_iSMP  = document.querySelectorAll('.invitation-section-main-p');
 const hidden_iSMH3 = document.querySelectorAll('.invitation-section-main-h3');
+hidden_i.forEach((el)       => observer.observe(el))
 hidden_iS.forEach((el)      => observer.observe(el));
 hidden_iSBg.forEach((el)    => observer.observe(el));
 hidden_iSMP.forEach((el)    => observer.observe(el));
@@ -98,6 +100,11 @@ hidden_cdot_ld.forEach((el)      => observer.observe(el));
 hidden_cdot_ru.forEach((el)      => observer.observe(el));
 hidden_cdot_rd.forEach((el)      => observer.observe(el));
 // end countdown
+
+// start closing
+const hidden_cI = document.querySelectorAll('.closing-image');
+hidden_cI.forEach((el)      => observer.observe(el));
+
 
 
 var countdownDate = new Date("Sep 17, 2027 00:00:00").getTime();
